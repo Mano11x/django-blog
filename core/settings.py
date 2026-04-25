@@ -123,3 +123,5 @@ LOGIN_URL = '/login/'
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 STATIC_ROOT = BASE_DIR / 'staticfiles'
+
+ALLOWED_HOSTS = ['django-blog-2vc9.onrender.com', 'localhost', '127.0.0.1']
