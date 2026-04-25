@@ -1,10 +1,10 @@
 {% load static %}<html>
     <head>
-    <title>My Blog</title>
+    <title>The Blog</title>
     <link rel='stylesheet' href='{% static "app/style.css" %}'></head>
     <body>
         <nav>
-            <a href='/'>My Blog</a>
+            <a href='/'>The Blog</a>
             <div>{% if request.user.is_authenticated %}
                 <span style='color:#aaa;margin-right:1rem;'>Hi, {{ request.user.username }}!</span>
                 <a href='/logout/' class='btn' style='background:#333;color:#fff;margin-right:0.5rem;'>Logout</a>
